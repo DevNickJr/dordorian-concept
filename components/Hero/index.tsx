@@ -12,14 +12,14 @@ const Hero = () => {
           Dordorian Concept
         </h1>
 
-        <h2 className="hidden text-2xl leading-relaxed md:block text-black">
+        <h2 className="hidden text-2xl leading-relaxed md:block text-primary">
           Empowering Growth, Innovation & Success
         </h2>
-        <p className="font-[449] md:hidden text-black">
+        <p className="font-[449] md:hidden text-primary">
           At Dordorian Concept Ltd, we offer integrated solutions in marketing, consultancy, real estate, and education.
         </p>
 
-        <p className="hidden text-xl leading-relaxed md:block text-black">
+        <p className="hidden text-xl leading-relaxed md:block text-primary">
           Discover limitless opportunities with Dordorian Concept Ltd. We provide integrated solutions in marketing, consultancy, real estate, and education, empowering individuals and businesses to thrive.
         </p>
         
