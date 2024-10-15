@@ -2,7 +2,7 @@
 import { FormEvent, useReducer } from 'react'
 import React from 'react'
 import Image from 'next/image'
-import ContactImg from '@/assets/lock.png'
+import ContactImg from "@/assets/innov.png";
 import { IFeedback, IReducerAction } from '@/interfaces'
 import { RainbowButton } from '@/components/ui/rainbow-button'
 
