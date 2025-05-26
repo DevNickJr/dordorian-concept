@@ -7,7 +7,7 @@ import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <footer className='relative border-none section grad-to-right dark:grad-to-right-dark'>
+    <footer className='relative border-none section grad-to-right dark:grad-to-right-dark '>
         <div className="container flex flex-col gap-8 md:flex-row">
         {/* Left Section - Logo and About */}
         <div className="flex flex-col flex-1 gap-3">
@@ -20,10 +20,18 @@ const Footer = () => {
             </p>
             {/* Social Media Icons */}
             <div className="flex gap-3">
-                <BsFacebook className='w-6 h-6 text-primary' />
-                <BsTwitter className='w-6 h-6 text-primary' />
-                <BsLinkedin className='w-6 h-6 text-primary' />
-                <BsInstagram className='w-6 h-6 text-primary' />
+                <a target='_blank' href={'https://www.facebook.com/yenreachng/'}>
+                    <BsFacebook className='w-6 h-6 text-primary' />
+                </a>
+                <a target='_blank' href={'https://www.facebook.com/yenreachng/'}>
+                    <BsTwitter className='w-6 h-6 text-primary' />
+                </a>
+                <a target='_blank' href={'https://ng.linkedin.com/company/yenreachng'}>
+                    <BsLinkedin className='w-6 h-6 text-primary' />
+                </a>
+                <a target='_blank' href={'https://www.instagram.com/yenreach/'}>
+                    <BsInstagram className='w-6 h-6 text-primary' />
+                </a>
             </div>
         </div>
     
@@ -50,7 +58,7 @@ const Footer = () => {
         </div>
     
         {/* Copyright */}
-        <p className='absolute right-4 bottom-4 text-primary'>© 2024 Dordorian Concept Ltd. All rights reserved.</p>
+        <p className='md:absolute right-4 bottom-4 text-primary'>© 2024 Dordorian Concept Ltd. All rights reserved.</p>
         </div>
   </footer>
   

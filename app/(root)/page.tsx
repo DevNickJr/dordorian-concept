@@ -6,6 +6,7 @@ import Uni2 from "@/assets/uni2.png";
 import Innov from "@/assets/innov.png";
 import { User, Users } from "lucide-react";
 import { RainbowButton } from "@/components/ui/rainbow-button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -134,7 +135,9 @@ export default function Home() {
                   <h2 className='text-3xl font-bold text-primary-foreground'>UNIVERSITY OF BUSINESS AND TECHNOLOGY</h2>
                   <p className='text-primary-foreground'>Advance access to higher business education</p>
                 </div>
-                <RainbowButton className={'bg-primary text-primary-foreground px-6 py-[0.8rem]'}>Lets work</RainbowButton>
+                <Link href={'/contact'}>
+                  <RainbowButton className={'bg-primary text-primary-foreground px-6 py-[0.8rem]'}>Lets work</RainbowButton>
+                </Link>
               </div>
             </div>
             <div className="flex flex-col justify-between flex-1 gap-6">
@@ -154,7 +157,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <RainbowButton>View Our Project</RainbowButton>
+          <Link href={'/contact'}>
+            <RainbowButton>Reach Out</RainbowButton>
+            {/* <RainbowButton>View Our Project</RainbowButton> */}
+          </Link>
         </div>
       </section>
       
@@ -167,7 +173,9 @@ export default function Home() {
                   At Dordorian Concept, we offer expert solutions with a focus on professionalism, innovative services, and a commitment to helping businesses and individuals achieve success across various industries.
                 </p>
               </div>
-              <RainbowButton className={'border-none rounded-xl py-3 text-sm whitespace-nowrap'}>Contact Us</RainbowButton>
+              <Link href={'/contact'}>
+                <RainbowButton className={'border-none rounded-xl py-3 text-sm whitespace-nowrap'}>Contact Us</RainbowButton>
+              </Link>
             </div>
           </div>
       </section>

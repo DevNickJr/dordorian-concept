@@ -107,17 +107,21 @@ body {
 
   .grad-to-right {
     background-image: linear-gradient(to right, #ffd319, #ff2975, #8c1eff);
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    border: none;
-    border-top: 1px solid #fff;
+    @media screen and (min-width: 768px) {
+      border-top-left-radius: 10%;
+      border-top-right-radius: 10%;
+      border: none;
+      border-top: 1px solid #fff;
+    }
   }
  
   .grad-to-right-dark {
     background-image: linear-gradient(to right, #000, #000, #000);
-    border: none;
-    border-top: 1px solid #fff;
-    border-radius: 10%;
+    @media screen and (min-width: 768px) {
+      border: none;
+      border-top: 1px solid #fff;
+      border-radius: 10%;
+    }
   }
 }
 

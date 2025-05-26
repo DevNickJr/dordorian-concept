@@ -27,7 +27,6 @@ const ContactUs = () => {
     // })
 
     const sendFeedback = (e: FormEvent<HTMLFormElement>) => {
-        e.preventDefault()
         // post(feedback)
     }
   return (

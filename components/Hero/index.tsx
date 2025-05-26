@@ -24,7 +24,7 @@ const Hero = () => {
         </p>
         
 
-        <Link href={'/get-started'}>
+        <Link href={'/contact'}>
           <RainbowButton>
             Get Started
           </RainbowButton>
