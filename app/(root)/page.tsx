@@ -1,6 +1,5 @@
 import Hero from "@/components/Hero";
 import Image from "next/image";
-import Img from "@/assets/lock.png";
 import Mag2 from "@/assets/mag2.png";
 import Mag3 from "@/assets/mag3.png";
 import Uni2 from "@/assets/uni2.png";
@@ -53,7 +52,7 @@ export default function Home() {
               At Dordorian Concept Ltd, we offer a wide range of services that drive growth, innovation, and success. From integrated marketing solutions to real estate and educational platforms, we are committed to empowering businesses and individuals across Nigeria.
             </p>
           </div>
-          <div data-aos="slide-up" className="overflow-hidden">
+          {/* <div data-aos="slide-up" className="overflow-hidden">
             <div className="gap-4 sm:grid grid-cols-5 whitespace-nowrap flex min-[580px]:justify-center items-center overflow-auto">
               <div className="flex flex-col gap-4 items-center bg-[#FAFAFC] p-5 md:p-8 rounded-md">
                 <Image src={Img} alt="Marketing" className="w-10 h-10 bg-gray-200" />
@@ -76,13 +75,13 @@ export default function Home() {
                 <span className="text-xs font-[451] md:font-[430] md:text-base">Human Resources</span>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="flex flex-col grid-cols-2 gap-10 mt-6 md:grid md:gap-12 md:mt-12">
             <div className="flex flex-col gap-4 items-center md:items-start md:text-left shadow-md shadow-[#20248A0A] bg-white rounded-2xl p-8 text-center w-full max-w-[270px] md:bg-[#FAFAFC] md:max-w-none mx-auto">
               <span className="bg-primary p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
                 <User color="#fff" />
               </span>
-              <h4 className="text-xl font-semibold">Innovative Solutions</h4>
+              <h4 className="text-xl font-semibold">Marketing</h4>
               <p className="mt-2 text-sm text-[#42526E] max-w-sm">
                 From marketing to real estate, our diverse services help individuals and businesses thrive with tailored, innovative solutions.
               </p>
@@ -91,11 +90,30 @@ export default function Home() {
               <span className="bg-primary p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
                 <Users color="#fff" />
               </span>
-              <h4 className="text-xl font-semibold">Empowering Entrepreneurs</h4>
+              <h4 className="text-xl font-semibold">Consultancy</h4>
               <p className="mt-2 text-sm text-[#42526E] max-w-sm">
                 Through our educational institutions, we are shaping the future by providing students and young entrepreneurs with the skills to build businesses and create lasting legacies.
               </p>
             </div>
+            <div className="flex flex-col gap-4 items-center md:items-start md:text-left shadow-md shadow-[#20248A0A] bg-white rounded-2xl p-8 text-center w-full max-w-[270px] md:bg-[#FAFAFC] md:max-w-none mx-auto">
+              <span className="bg-primary p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
+                <Users color="#fff" />
+              </span>
+              <h4 className="text-xl font-semibold">Real Estate</h4>
+              <p className="mt-2 text-sm text-[#42526E] max-w-sm">
+                Through our educational institutions, we are shaping the future by providing students and young entrepreneurs with the skills to build businesses and create lasting legacies.
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 items-center md:items-start md:text-left shadow-md shadow-[#20248A0A] bg-white rounded-2xl p-8 text-center w-full max-w-[270px] md:bg-[#FAFAFC] md:max-w-none mx-auto">
+              <span className="bg-primary p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
+                <Users color="#fff" />
+              </span>
+              <h4 className="text-xl font-semibold">Education</h4>
+              <p className="mt-2 text-sm text-[#42526E] max-w-sm">
+                Through our educational institutions, we are shaping the future by providing students and young entrepreneurs with the skills to build businesses and create lasting legacies.
+              </p>
+            </div>
+      
           </div>
         </div>
       </section>

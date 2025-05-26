@@ -50,7 +50,7 @@ const toggle = () =>{
         
         >
             <Link href="/" className="mr-2">Home</Link>
-            <Link href="/about" className="mx-2">About</Link>
+            <Link href="/#about" className="mx-2">About</Link>
             <Link href="/contact" className="mx-2">Contact</Link>
             <button onClick={() => setMode(mode === "light" ? "dark" : "light")  }
             className={cx("w-6 h-6 ease ml-2 flex items-center justify-center rounded-full p-1", mode === "light" ? "bg-dark text-light" :
@@ -66,7 +66,7 @@ const toggle = () =>{
 
         <nav className="fixed z-50 items-center hidden px-8 py-3 font-medium capitalize translate-x-1/2 border border-solid rounded-full w-max border-dark sm:flex top-6 right-1/2 bg-light/80 backdrop-blur-sm">
             <Link href="/" className="mr-2">Home</Link>
-            <Link href="/about" className="mx-2">About</Link>
+            <Link href="/#about" className="mx-2">About</Link>
             <Link href="/contact" className="mx-2">Contact</Link>
             <button onClick={() => setMode(mode === "light" ? "dark" : "light")  }
             className={cx("w-6 h-6 ease ml-2 flex items-center justify-center rounded-full p-1", mode === "light" ? "bg-dark text-light" :
