@@ -44,10 +44,10 @@ const Footer = () => {
                 <p className="text-primary">(+234) 806 039 8968</p>
             </div>
     
-            <div className="flex items-center justify-center gap-2">
+            <a href="mailto:conceptdordorian@gmail.com" className="flex items-center justify-center gap-2">
                 <MdMail className='w-5 h-5 text-primary' />
-                <p className="text-primary">info@dordorianconcept.com</p>
-            </div>
+                <p className="text-primary">conceptdordorian@gmail.com</p>
+            </a>
     
             <div className="flex items-center justify-center gap-2">
                 <MdLocationOn className='w-6 h-6 text-primary' />

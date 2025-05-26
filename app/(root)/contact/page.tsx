@@ -57,12 +57,12 @@ const ContactUs = () => {
                         <h3 className="mb-3 text-xl font-bold text-gray-800 font-argentinum">Email/Website Address</h3>
                         <div className="text-lg text-[#6D6D6D] font-medium flex flex-col">
                             <a href="http://www.dordorianceconcept.com" className="hover:text-primary">
-                                http://www.dordorianceconcept.com
+                                http://www.conceptdordorian.com
                             </a>
                             {/* <a href="https://box.reinsys.net/brilliant/" className="hover:text-primary">
                                 https://box.reinsys.net/brilliant/
                             </a> */}
-                            <a href="mailto:dordorianceconcept@gmail.com" className="hover:text-primary">
+                            <a href="mailto:conceptdordorian@gmail.com" className="hover:text-primary">
                             dordorianceconcept@gmail.com
                             </a>
                         </div>
