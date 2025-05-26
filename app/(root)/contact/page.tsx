@@ -27,6 +27,7 @@ const ContactUs = () => {
     // })
 
     const sendFeedback = (e: FormEvent<HTMLFormElement>) => {
+        e.stopPropagation()
         // post(feedback)
     }
   return (
@@ -41,12 +42,12 @@ const ContactUs = () => {
                     <Image src={ContactImg} alt="" className="w-full h-40 max-w-sm mb-8" />
                     <div>
                         <h3 className="mb-3 text-xl font-bold text-gray-800 font-argentinum">Office Address</h3>
-                        <p className="text-[#6D6D6D] font-medium">Office Address:<br /> 3rd Floor, Suite 056,Ridds Plaza<br />Plot 740, Agunwa Anaekwe Street <br />Wuye, FCT-Abuja</p>
+                        <p className="text-[#6D6D6D] font-medium">Office Address:<br />260 Sam Inokoba street  <br />adjacent Sunky Supermarket, off Azikoro Road, Ekeki,<br />Yenegoa, Bayelsa State</p>
                     </div>
                     <div>
                         <h3 className="mb-3 text-xl font-bold text-gray-800 font-argentinum">Phone Number</h3>
                         <div className="text-lg text-[#6D6D6D] font-medium flex flex-col">
-                            <a href='tel:+23470000333435'>0700-0033-3435</a>
+                            <a href='tel:+2347037193301'>0703-719-3301</a>
                             {/* <a href='tel:+2347001020300'>+2347001020300</a>
                             <a href='tel:+2347030858742'>+2347030858742</a>
                             <a href='tel:+2348024419117'>+2348024419117</a> */}
@@ -55,14 +56,14 @@ const ContactUs = () => {
                     <div>
                         <h3 className="mb-3 text-xl font-bold text-gray-800 font-argentinum">Email/Website Address</h3>
                         <div className="text-lg text-[#6D6D6D] font-medium flex flex-col">
-                            <a href="http://www.bbscholarships.org" className="hover:text-primary">
-                                http://www.bbscholarships.org
+                            <a href="http://www.dordorianceconcept.com" className="hover:text-primary">
+                                http://www.dordorianceconcept.com
                             </a>
                             {/* <a href="https://box.reinsys.net/brilliant/" className="hover:text-primary">
                                 https://box.reinsys.net/brilliant/
                             </a> */}
-                            <a href="mailto:info@bbscholarships.org" className="hover:text-primary">
-                            info@bbscholarships.org
+                            <a href="mailto:dordorianceconcept@gmail.com" className="hover:text-primary">
+                            dordorianceconcept@gmail.com
                             </a>
                         </div>
                         {/* <div className="text-sm text-[#6D6D6D] font-medium flex flex-col">
