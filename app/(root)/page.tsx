@@ -77,9 +77,9 @@ export default function Home() {
               </div>
             </div>
           </div> */}
-          <div className="flex flex-col grid-cols-2 gap-10 mt-6 md:grid md:gap-12 md:mt-12">
+          <div className="flex flex-col grid-cols-2 gap-10 mt-6 md:grid md:gap-12 md:mt-12 dark:text-primary-foreground">
             <div className="flex flex-col gap-4 items-center md:items-start md:text-left shadow-md shadow-[#20248A0A] bg-white rounded-2xl p-8 text-center w-full max-w-[270px] md:bg-[#FAFAFC] md:max-w-none mx-auto">
-              <span className="bg-primary p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
+              <span className="bg-black p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
                 <User color="#fff" />
               </span>
               <h4 className="text-xl font-semibold">Marketing</h4>
@@ -88,7 +88,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-4 items-center md:items-start md:text-left shadow-md shadow-[#20248A0A] bg-white rounded-2xl p-8 text-center w-full max-w-[270px] md:bg-[#FAFAFC] md:max-w-none mx-auto">
-              <span className="bg-primary p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
+              <span className="bg-black p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
                 <Users color="#fff" />
               </span>
               <h4 className="text-xl font-semibold">Consultancy</h4>
@@ -97,7 +97,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-4 items-center md:items-start md:text-left shadow-md shadow-[#20248A0A] bg-white rounded-2xl p-8 text-center w-full max-w-[270px] md:bg-[#FAFAFC] md:max-w-none mx-auto">
-              <span className="bg-primary p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
+              <span className="bg-black p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
                 <Users color="#fff" />
               </span>
               <h4 className="text-xl font-semibold">Real Estate</h4>
@@ -106,7 +106,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-4 items-center md:items-start md:text-left shadow-md shadow-[#20248A0A] bg-white rounded-2xl p-8 text-center w-full max-w-[270px] md:bg-[#FAFAFC] md:max-w-none mx-auto">
-              <span className="bg-primary p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
+              <span className="bg-black p-2.5 w-10 h-10 rounded-full flex items-center justify-center">
                 <Users color="#fff" />
               </span>
               <h4 className="text-xl font-semibold">Education</h4>
@@ -132,8 +132,8 @@ export default function Home() {
               <Image className='absolute object-cover w-full h-full' src={Uni2} alt="" />
               <div className="z-10 flex flex-col items-start gap-4 px-12 py-4 pb-6 md:flex-row md:items-center">
                 <div className="flex flex-col gap-4 md:w-2/3">
-                  <h2 className='text-3xl font-bold text-primary-foreground'>UNIVERSITY OF BUSINESS AND TECHNOLOGY</h2>
-                  <p className='text-primary-foreground'>Advance access to higher business education</p>
+                  <h2 className='text-3xl font-bold text-primary-foregroud text-white'>UNIVERSITY OF BUSINESS AND TECHNOLOGY</h2>
+                  <p className='text-primary-foregroud text-white'>Advance access to higher business education</p>
                 </div>
                 <Link href={'/contact'}>
                   <RainbowButton className={'bg-primary text-primary-foreground px-6 py-[0.8rem]'}>Lets work</RainbowButton>
@@ -144,15 +144,15 @@ export default function Home() {
               <div className="relative flex items-end justify-center flex-1 overflow-hidden rounded-3xl">
                 <Image className='absolute object-cover w-full h-full' src={Mag2} alt="" />
                 <div className="z-10 flex flex-col gap-3 p-6">
-                  <h2 className='text-2xl font-bold text-primary-foreground'>BYS MAGAZINE</h2>
-                  <p className='text-primary-foreground'>Spotlighting the rich tapestry of businesses operating within Bayelsa</p>
+                  <h2 className='text-2xl font-bold text-primary-foregroud text-white'>BYS MAGAZINE</h2>
+                  <p className='text-primary-foregroud text-white'>Spotlighting the rich tapestry of businesses operating within Bayelsa</p>
                 </div>
               </div>
               <div className="relative flex items-end justify-center flex-1 overflow-hidden rounded-3xl w-fit">
                 <Image className='absolute object-cover w-full h-full' src={Mag3} alt="" />
                 <div className="z-10 flex flex-col gap-3 p-6">
-                  <h2 className='text-2xl font-bold text-primary-foreground'>YENREACH</h2>
-                  <p className='text-primary-foreground'>Innovative business and job listing platform supporting the growth and development of small and medium businesses across Nigeria</p>
+                  <h2 className='text-2xl font-bold text-primary-foregroud text-white'>YENREACH</h2>
+                  <p className='text-primary-foregroud text-white'>Innovative business and job listing platform supporting the growth and development of small and medium businesses across Nigeria</p>
                 </div>
               </div>
             </div>

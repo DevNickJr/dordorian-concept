@@ -12,7 +12,7 @@ const Footer = () => {
         {/* Left Section - Logo and About */}
         <div className="flex flex-col flex-1 gap-3">
             <div className="flex items-center gap-2">
-            <Image src={LogoImg} alt="Dordorian Logo" className="w-24 md:w-40" width={200} height={200} />
+            <Image src={LogoImg} alt="Dordorian Logo" className="w-24 md:w-40 rounded-md dark:bg-light/80" width={200} height={200} />
             {/* <h2 className='text-2xl font-bold text-primary'>Dordorian Concept</h2> */}
             </div>
             <p className='text-base text-primary'>
