@@ -1,12 +1,12 @@
 "use client"
 import Link from "next/link";
 import Logo from "./Logo";
-import { LinkedinIcon, MoonIcon, SunIcon, TwitterIcon } from "../Icons";
+import { MoonIcon, SunIcon } from "../Icons";
 import { useState } from "react";
 import { siteMetadata } from "@/constants/siteMetaData";
 import useThemeSwitch from "@/hooks/useThemeSwitch";
 import { cx } from "class-variance-authority";
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin, BsTwitterX } from "react-icons/bs";
 
 const Header = () => {
 
@@ -80,8 +80,8 @@ const toggle = () =>{
             </button>
         </nav>
         <div className="items-center hidden sm:flex">
-            <a href={siteMetadata.linkedin} rel="noopener noreferrer" className="inline-block w-6 h-6 mr-4" aria-label="Reach out to me via LinkedIn" target="_blank"><LinkedinIcon className="transition-all duration-200 hover:scale-125 ease" /></a>
-            <a href={siteMetadata.twitter} rel="noopener noreferrer" className="inline-block w-6 h-6 mr-4" aria-label="Reach out to me via Twitter" target="_blank"><TwitterIcon className="transition-all duration-200 hover:scale-125 ease" /></a>
+            <a href={siteMetadata.linkedin} rel="noopener noreferrer" className="inline-block w-6 h-6 mr-4" aria-label="Reach out to me via LinkedIn" target="_blank"><BsLinkedin className="transition-all duration-200 hover:scale-125 ease" /></a>
+            <a href={siteMetadata.twitter} rel="noopener noreferrer" className="inline-block w-6 h-6 mr-4" aria-label="Reach out to me via Twitter" target="_blank"><BsTwitterX className="transition-all duration-200 hover:scale-125 ease" /></a>
             <a href={siteMetadata.instagram} rel="noopener noreferrer" className="inline-block w-6 h-6 mr-4" aria-label="Check my profile on Github" target="_blank"><BsInstagram className="transition-all duration-200 hover:scale-125 ease dark:fill-light" /></a>
             <a href={siteMetadata.facebook} rel="noopener noreferrer" className="inline-block w-6 h-6 mr-4" aria-label="Check my profile on Dribbble" target="_blank"><BsFacebook className="transition-all duration-200 hover:scale-125 ease" /></a>
         </div>
