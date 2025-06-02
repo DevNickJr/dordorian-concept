@@ -173,11 +173,11 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-gray-900 mb-2">🤝 Why Partner With Dordorian Concept Ltd.?</h2>
           <p className="mb-4">
           Dordorian Concept Ltd. is a visionary company driving impact across real estate, digital marketing, and education. As the parent company of Yenreach.com, Yenreach City, Business and Technology University, and Business and Technology College, we offer integrated solutions that support business growth, property investment, and skills development.
-            {/* Whether you're investing in land, automating your business, or advancing education—
+            {/* Whether you&apos;re investing in land, automating your business, or advancing education—
             you&apos;re joining a mission built on innovation, integrity, and empowerment. */}
           </p>
           <p className="mb-4">
-            Partnering with us means gaining access to a diverse ecosystem built on innovation, integrity, and value creation. Whether you're investing in land, promoting your business, or advancing education, you're joining a mission to build sustainable communities and empower the next generation.
+            Partnering with us means gaining access to a diverse ecosystem built on innovation, integrity, and value creation. Whether you&apos;re investing in land, promoting your business, or advancing education, you&apos;re joining a mission to build sustainable communities and empower the next generation.
           </p>
           <Link
             href="/contact"
