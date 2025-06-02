@@ -2,7 +2,7 @@
 import { FormEvent, useReducer } from 'react'
 import React from 'react'
 import Image from 'next/image'
-import ContactImg from "@/assets/innov.png";
+import ContactImg from "@/assets/hand.jpg";
 import { IFeedback, IReducerAction } from '@/interfaces'
 import { RainbowButton } from '@/components/ui/rainbow-button'
 
@@ -37,9 +37,9 @@ const ContactUs = () => {
             <h1 className="mb-3 text-4xl font-extrabold text-white md:text-5xl font-argentinum">Contact Us <br /> Address</h1>
         </section>  */}
         <section className="flex flex-col gap-3 pt-20 pb-20 section md:flex-row">
-            <div className="container flex flex-col justify-between w-full gap-4 md:flex-row md:gap-12">
+            <div className="container flex flex-col justify-between w-full gap-4 md:flex-row md:gap-12 md:items-start">
                 <div className="flex flex-col flex-1 gap-4">
-                    <Image src={ContactImg} alt="" className="w-full h-40 max-w-sm mb-8" />
+                    <Image src={ContactImg} alt="" className="w-full aspect-auto max-w-sm mb-8" />
                     <div>
                         <h3 className="mb-3 text-xl font-bold text-gray-800 font-argentinum">Office Address</h3>
                         <p className="text-[#6D6D6D] font-medium">Office Address:<br />260 Sam Inokoba street  <br />adjacent Sunky Supermarket, off Azikoro Road, Ekeki,<br />Yenegoa, Bayelsa State</p>

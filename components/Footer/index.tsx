@@ -16,7 +16,7 @@ const Footer = () => {
             {/* <h2 className='text-2xl font-bold text-primary'>Dordorian Concept</h2> */}
             </div>
             <p className='text-base text-primary'>
-            Dordorian Concept Ltd is an integrated marketing communication company offering a wide range of services including marketing, consultancy, real estate, human resource management, and more. We are committed to empowering businesses and individuals to achieve their full potential.
+            Dordorian Concept Ltd is an integrated marketing communication company offering a wide range of services including marketing, consultancy, real estate, human resource development, and more. We are committed to empowering businesses and individuals to achieve their full potential.
             </p>
             {/* Social Media Icons */}
             <div className="flex gap-3">
@@ -41,18 +41,20 @@ const Footer = () => {
     
             <div className="flex items-center justify-center gap-2">
                 <MdPhone className='w-5 h-5 text-primary' />
-                <p className="text-primary">(+234) 806 039 8968</p>
+                <p className="text-primary">(+234) 904 352 1343,</p>
+                <p className="text-primary">(+234) 802 578 3821,</p>
+                <p className="text-primary">(+234) 703 719 3301</p>
             </div>
     
-            <a href="mailto:conceptdordorian@gmail.com" className="flex items-center justify-center gap-2">
+            <a href="mailto:dordorianbys@gmail.com" className="flex items-center justify-center gap-2">
                 <MdMail className='w-5 h-5 text-primary' />
-                <p className="text-primary">conceptdordorian@gmail.com</p>
+                <p className="text-primary">dordorianbys@gmail.com</p>
             </a>
     
             <div className="flex items-center justify-center gap-2">
                 <MdLocationOn className='w-6 h-6 text-primary' />
                 <p className="text-primary">
-                    First Floor, Promo Master Complex, Otiotio, Yenagoa, Bayelsa State, Nigeria
+                    260,sam Inokoba street, adjacent Sunky Super market off Azikoro Road.Ekeki Yenegoa ,Bayelsa State
                 </p>
             </div>
         </div>

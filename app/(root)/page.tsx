@@ -1,9 +1,11 @@
 import Hero from "@/components/Hero";
 import Image from "next/image";
 import Mag2 from "@/assets/mag2.png";
-import Mag3 from "@/assets/mag3.png";
-import Uni2 from "@/assets/uni2.png";
-import Innov from "@/assets/innov.png";
+import BusitechImg from "@/assets/busitech.png";
+import BusiUniImg from "@/assets/bus.png";
+import RealEstate from "@/assets/real-estate.png";
+import Innov from "@/assets/city.png";
+import Yenreach from "@/assets/yenreach.png";
 import { User, Users } from "lucide-react";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 import Link from "next/link";
@@ -39,7 +41,7 @@ export default function Home() {
 
           {/* Right side: Image */}
           <div className="flex items-center justify-center">
-            <Image src={Innov} alt="About Dordorian Concept Ltd." className="w-full h-auto rounded-lg shadow-md" />
+            <Image src={Innov} alt="About Dordorian Concept Ltd." className="w-full h-auto shadow-md" />
           </div>
     
         </div>
@@ -118,7 +120,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+{/* 
       <section id="portfolio" className="section grad-to-right dark:grad-to-right-dark">
         <div className="container flex flex-col items-center justify-center gap-4">
           <div data-aos="fade-in" className="flex flex-col items-center max-w-[720px] text-center mx-auto mb-6 md:mb-12">
@@ -159,12 +161,86 @@ export default function Home() {
           </div>
           <Link href={'/contact'}>
             <RainbowButton>Reach Out</RainbowButton>
-            {/* <RainbowButton>View Our Project</RainbowButton> */}
+          </Link>
+        </div>
+      </section> */}
+      <section id="portfolio" className="section grad-to-right dark:grad-to-right-dark">
+        <div className="container flex flex-col items-center justify-center gap-4">
+          <div data-aos="fade-in" className="flex flex-col items-center max-w-[720px] text-center mx-auto mb-6 md:mb-12">
+            <h3 className="text-2xl md:text-3xl font-[624] mb-2 md:mb-4 text-primary">Projects</h3>
+            <p className="text-lg text-primary">
+              Explore our portfolio to see how our integrated real estate, education, and technology solutions empower communities and businesses.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-6 py-6 md:flex-row">
+            <div className="flex relative overflow-hidden flex-1 h-[539px] rounded-3xl justify-center items-end w-fit">
+              <div className="absolute object-cover w-full h-full bg-white/15">
+                <Image className='w-full aspect-auto' src={BusiUniImg} alt="" />
+              </div>
+              <div className="z-10 flex flex-col items-start gap-4 px-12 py-4 pb-6 md:flex-row md:items-center">
+                <div className="flex flex-col gap-4 md:w-2/3">
+                  <h2 className='text-3xl font-bold text-white'>BUSINESS AND TECHNOLOGY UNIVERSITY</h2>
+                  <p className='text-white'>Advance access to higher business education</p>
+                </div>
+                <Link href={'/contact'}>
+                  <RainbowButton className={'bg-primary text-primary-foreground px-6 py-[0.8rem]'}>Let's Work</RainbowButton>
+                </Link>
+              </div>
+            </div>
+
+            <div className="flex flex-col justify-between flex-1 gap-6">
+              <div className="relative flex items-end justify-center flex-1 overflow-hidden rounded-3xl">
+                <Image className='absolute object-cover w-full h-full' src={Mag2} alt="" />
+                <div className="z-10 flex flex-col gap-3 p-6">
+                  <h2 className='text-2xl font-bold text-white'>BYS MAGAZINE</h2>
+                  <p className='text-white'>Spotlighting the rich tapestry of businesses operating within Bayelsa</p>
+                </div>
+              </div>
+
+              <div className="relative flex items-end justify-center flex-1 overflow-hidden rounded-3xl">
+                <Image className='absolute object-cover w-full h-full' src={Yenreach} alt="" />
+                <div className="z-10 flex flex-col gap-3 p-6">
+                  <h2 className='text-2xl font-bold text-white'>YENREACH</h2>
+                  <p className='text-white'>Innovative business and job listing platform supporting the growth and development of small and medium businesses across Nigeria</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* NEW ROW OF PROJECTS */}
+          <div className="grid md:grid-cols-2 gap-6 w-full mt-6">
+            <div className="relative overflow-hidden rounded-3xl h-[320px] flex items-end justify-center">
+              <Image className='absolute object-cover w-full h-full' src={RealEstate} alt="" />
+              <div className="z-10 p-6 text-white">
+                <h2 className='text-2xl font-bold'>YENREACH CITY</h2>
+                <p>Our flagship smart estate project redefining urban real estate in Bayelsa and Port Harcourt</p>
+              </div>
+            </div>
+            {/* <div className="relative overflow-hidden rounded-3xl h-[320px] flex items-end justify-center">
+              <Image className='absolute object-cover w-full h-full' src={Uni2} alt="" />
+              <div className="z-10 p-6 text-white">
+                <h2 className='text-2xl font-bold'>DIGITAL SYSTEMS DEPT</h2>
+                <p>Smart digital billing, tracking, and cloud-based record tools for schools and SMEs</p>
+              </div>
+            </div> */}
+
+            <div className="relative overflow-hidden rounded-3xl h-[320px] flex items-end justify-center">
+              <Image className='absolute object-cover w-full h-full bg-white/15' src={BusitechImg} alt="" />
+              <div className="z-10 p-6 text-white">
+                <h2 className='text-2xl font-bold'>BUSITECH MODEL COLLEGE</h2>
+                <p>A secondary school empowering teens through early business and technical education</p>
+              </div>
+            </div>
+          </div>
+
+          <Link href={'/contact'}>
+            <RainbowButton className="mt-8">Reach Out</RainbowButton>
           </Link>
         </div>
       </section>
       
-      <section id="portfolio" className="section">
+      <section id="work" className="section">
         <div className="container lg:px-main">
             <div className="flex flex-col items-center justify-between w-full gap-4 p-6 md:flex-row bg-primary-foreground rounded-2xl md:p-12">
               <div className="flex flex-col gap-4">
@@ -180,6 +256,8 @@ export default function Home() {
             </div>
           </div>
       </section>
+
+      
 
 
 

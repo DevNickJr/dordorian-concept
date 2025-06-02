@@ -25,7 +25,12 @@ export default function Home() {
           <p className="hidden text-xl leading-relaxed md:block text-primary">
           A multi-sector company pioneering change across real estate, digital transformation, and education. We build sustainable communities, empower entrepreneurs, and prepare youth for the future through innovation, integrity, and value creation.
           </p>
-          <div className="flex items-center gap-1.5">
+          <Link href={'/contact'}>
+              <RainbowButton>
+                Reach Out
+              </RainbowButton>
+            </Link>
+          {/* <div className="flex items-center gap-1.5">
             <Link href={'/get-started'}>
               <RainbowButton className="px-3">
                 Innovation
@@ -42,7 +47,7 @@ export default function Home() {
               </RainbowButton>
             </Link>
 
-          </div>
+          </div> */}
           
         </div>
       </div>
@@ -59,8 +64,8 @@ export default function Home() {
         {/* Real Estate Section */}
         <div className="mb-20">
           <h2 className="text-3xl font-semibold text-gray-900 mb-4">🏘️ Real Estate Solutions</h2>
-          <p className="mb-4">
-            We specialize in integrated housing solutions through:
+          <p className="mb-4 max-w-xl">
+            We are committed to promoting integrated housing solutions that meet the needs of individuals, families, and forward-thinking businesses. Our services include:
             <ul className="list-disc ml-6 mt-2">
               <li>Sale of plots of land</li>
               <li>Building development</li>
@@ -105,9 +110,24 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <p>
+          <p className="mb-6">
             Solve operational inefficiencies and unlock growth with smart, transparent, digital systems.
           </p>
+          <div className="bg-gray-50 border-l-4 border-primary p-6 rounded-md">
+            <h4 className="text-xl font-semibold mb-2">🚀 Why This Matters</h4>
+            <p className="mb-2">
+              This department solves critical challenges faced by schools and SMEs, such as:
+            </p>
+            <ul className="list-disc ml-6 mb-4">
+              <li>Manual errors and inefficiencies in paper-based operations</li>
+              <li>Limited financial transparency</li>
+              <li>Delays in reporting and invoicing</li>
+              <li>Data loss due to lack of digital backup</li>
+            </ul>
+            <p>
+              By choosing Dordorian Concept, clients gain access to smart systems that not only simplify their operations but also enable sustainable growth and improved decision-making.
+            </p>
+          </div>
         </div>
 
         {/* Education Section */}
@@ -159,8 +179,12 @@ export default function Home() {
         <div className="bg-gray-100 p-8 rounded-lg shadow mt-20">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">🤝 Why Partner With Dordorian Concept Ltd.?</h2>
           <p className="mb-4">
-            Whether you're investing in land, automating your business, or advancing education—
-            you&apos;re joining a mission built on innovation, integrity, and empowerment.
+          Dordorian Concept Ltd. is a visionary company driving impact across real estate, digital marketing, and education. As the parent company of Yenreach.com, Yenreach City, Business and Technology University, and Business and Technology College, we offer integrated solutions that support business growth, property investment, and skills development.
+            {/* Whether you're investing in land, automating your business, or advancing education—
+            you&apos;re joining a mission built on innovation, integrity, and empowerment. */}
+          </p>
+          <p className="mb-4">
+            Partnering with us means gaining access to a diverse ecosystem built on innovation, integrity, and value creation. Whether you're investing in land, promoting your business, or advancing education, you're joining a mission to build sustainable communities and empower the next generation.
           </p>
           <Link
             href="/contact"
