@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Dordorian Concept | Empowering Growth, Innovation & Success',
+  title: 'Dordorian Concept Ltd. | Empowering Growth, Innovation & Success',
   description:
     'Discover limitless opportunities with Dordorian Concept Ltd. We deliver integrated solutions in marketing, consultancy, real estate, and education—empowering individuals and businesses to thrive.',
 };

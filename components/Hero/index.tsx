@@ -6,10 +6,9 @@ import { RainbowButton } from '../ui/rainbow-button'
 const Hero = () => {
   return (
     <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background lg:h-screen lg:-mt-20 -z-10">
-      
       <div className="flex flex-col gap-7 items-center text-center p-4 pt-12 max-w-[360px] md:max-w-[800px] mx-auto text-muted text-sm relative">
-        <h1 className="pointer-events-none z-10 bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent">
-          Dordorian Concept
+        <h1 className="pointer-events-none z-10 bg-gradient-to-b from-[#21A94E] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent">
+          Dordorian Concept Ltd
         </h1>
 
         <h2 className="hidden text-2xl leading-relaxed md:block text-primary">

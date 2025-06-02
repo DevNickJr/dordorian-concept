@@ -39,7 +39,7 @@ export default function Home() {
 
           {/* Right side: Image */}
           <div className="flex items-center justify-center">
-            <Image src={Innov} alt="About Dordorian Concept" className="w-full h-auto rounded-lg shadow-md" />
+            <Image src={Innov} alt="About Dordorian Concept Ltd." className="w-full h-auto rounded-lg shadow-md" />
           </div>
     
         </div>
@@ -168,9 +168,10 @@ export default function Home() {
         <div className="container lg:px-main">
             <div className="flex flex-col items-center justify-between w-full gap-4 p-6 md:flex-row bg-primary-foreground rounded-2xl md:p-12">
               <div className="flex flex-col gap-4">
-                <h2 className='text-2xl font-bold text-primary'>Work Together with Dordorian Concept</h2>
+                <h2 className='text-2xl font-bold text-primary'>Work Together with Dordorian Concept Ltd</h2>
                 <p className='w-4/5 text-primary'>
-                  At Dordorian Concept, we offer expert solutions with a focus on professionalism, innovative services, and a commitment to helping businesses and individuals achieve success across various industries.
+                  At Dordorian Concept Ltd, we offer expert solutions with a focus on professionalism, innovative services, and a commitment to helping businesses and individuals achieve success across various industries. 
+                  Our operational matrix is designed to extend the reach of our clients, enabling them to scale effectively and thrive in competitive markets.
                 </p>
               </div>
               <Link href={'/contact'}>

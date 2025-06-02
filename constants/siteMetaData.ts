@@ -1,7 +1,7 @@
 // please update required information
 export const siteMetadata = {
-    title: 'Dordorian Concept | Empowering Growth, Innovation & Success',
-    author: 'Dordorian Concept',
+    title: 'Dordorian Concept Ltd. | Empowering Growth, Innovation & Success',
+    author: 'Dordorian Concept Ltd.',
     headerTitle: 'Next.js Blog',
     description: 'A blog created with Next.js, Tailwind.css and contentlayer.',
     language: 'en-us',
