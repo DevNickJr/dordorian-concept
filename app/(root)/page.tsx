@@ -184,7 +184,7 @@ export default function Home() {
                   <p className='text-white'>Advance access to higher business education</p>
                 </div>
                 <Link href={'/contact'}>
-                  <RainbowButton className={'bg-primary text-primary-foreground px-6 py-[0.8rem]'}>Let's Work</RainbowButton>
+                  <RainbowButton className={'bg-primary text-primary-foreground px-6 py-[0.8rem]'}>Let&apos;s Work</RainbowButton>
                 </Link>
               </div>
             </div>

@@ -1,10 +1,3 @@
-import Image from "next/image";
-import Img from "@/assets/lock.png";
-import Mag2 from "@/assets/mag2.png";
-import Mag3 from "@/assets/mag3.png";
-import Uni2 from "@/assets/uni2.png";
-import Innov from "@/assets/innov.png";
-import { User, Users } from "lucide-react";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 import Link from "next/link";
 
