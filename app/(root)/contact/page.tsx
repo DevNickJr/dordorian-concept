@@ -41,8 +41,12 @@ const ContactUs = () => {
                 <div className="flex flex-col flex-1 gap-4">
                     <Image src={ContactImg} alt="" className="w-full aspect-auto max-w-sm mb-8" />
                     <div>
-                        <h3 className="mb-3 text-xl font-bold text-gray-800 font-argentinum">Office Address</h3>
-                        <p className="text-[#6D6D6D] font-medium">Office Address:<br />260 Sam Inokoba street  <br />adjacent Sunky Supermarket, off Azikoro Road, Ekeki,<br />Yenegoa, Bayelsa State</p>
+                        <h3 className="mb-3 text-xl font-bold text-gray-800 font-argentinum">Office Address:</h3>
+                        <ul className='list-disc pl-4'>
+                            <li className='list-item'> <p className="text-[#6D6D6D] font-medium">260 Sam Inokoba street adjacent Sunky Supermarket, off Azikoro Road, Ekeki, Yenegoa, Bayelsa State</p></li>
+                            <li className='list-item'> <p className="text-[#6D6D6D] font-medium">Grace Amazing Plaza, 2 Church Street by  Iwofe road, Port Harcourt. River&apos;s State</p></li>
+                        </ul>
+                      
                     </div>
                     <div>
                         <h3 className="mb-3 text-xl font-bold text-gray-800 font-argentinum">Phone Number</h3>
