@@ -124,7 +124,7 @@ export default function Home() {
         </div>
 
         {/* Education Section */}
-        <div className="mb-20">
+        <div className="mb-20" id="busitech">
           <h2 className="text-3xl font-semibold text-gray-900 mb-4">🎓 BusiTech Model College</h2>
           <p className="mb-4">
             A specialized secondary school offering affordable, hands-on business and technical education.

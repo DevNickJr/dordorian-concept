@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import Image from "next/image";
-import Mag2 from "@/assets/mag2.png";
+// import Mag2 from "@/assets/mag2.png";
 import BusitechImg from "@/assets/busitech.png";
 import BusiUniImg from "@/assets/bus.png";
 import RealEstate from "@/assets/real-estate.png";
@@ -190,33 +190,36 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col justify-between flex-1 gap-6">
-              <div className="relative flex items-end justify-center flex-1 overflow-hidden rounded-3xl">
-                <Image className='absolute object-cover w-full h-full' src={Mag2} alt="" />
+              <Link href={'/about#busitech'} className="relative flex items-end justify-center flex-1 overflow-hidden rounded-3xl bg-white/15">
+                <Image className='absolute object-cover w-full h-full' src={BusitechImg} alt="" />
                 <div className="z-10 flex flex-col gap-3 p-6">
-                  <h2 className='text-2xl font-bold text-white'>BYS MAGAZINE</h2>
-                  <p className='text-white'>Spotlighting the rich tapestry of businesses operating within Bayelsa</p>
+                  <h2 className='text-2xl font-bold text-white'>BUSITECH MODEL COLLEGE</h2>
+                  <p className='text-white'>A secondary school empowering teens through early business and technical education</p>
                 </div>
-              </div>
+                <RainbowButton className={'bg-primary text-primary-foreground px-6 py-[0.8rem] bottom-2 right-2 whitespace-nowrap'}>See more</RainbowButton>
+              </Link>
 
-              <div className="relative flex items-end justify-center flex-1 overflow-hidden rounded-3xl">
+              <a target="_blank" href="https://www.yenreach.com" className="relative flex items-end justify-center flex-1 overflow-hidden rounded-3xl">
                 <Image className='absolute object-cover w-full h-full' src={Yenreach} alt="" />
                 <div className="z-10 flex flex-col gap-3 p-6">
-                  <h2 className='text-2xl font-bold text-white'>YENREACH</h2>
+                  <h2 className='text-2xl font-bold text-white'>YENREACH.com</h2>
                   <p className='text-white'>Innovative business and job listing platform supporting the growth and development of small and medium businesses across Nigeria</p>
                 </div>
-              </div>
+                <RainbowButton className={'bg-primary text-primary-foreground px-6 py-[0.8rem] bottom-2 right-2 whitespace-nowrap'}>See more</RainbowButton>
+              </a>
             </div>
           </div>
 
           {/* NEW ROW OF PROJECTS */}
-          <div className="grid md:grid-cols-2 gap-6 w-full mt-6">
-            <div className="relative overflow-hidden rounded-3xl h-[320px] flex items-end justify-center">
+          <div className="grid gap-6 w-full">
+            <a target="_blank" href={'https://www.instagram.com/yenreach_city/'} className="relative overflow-hidden rounded-3xl h-[320px] md:h-[200px] flex flex-col items-center justify-end">
               <Image className='absolute object-cover w-full h-full' src={RealEstate} alt="" />
-              <div className="z-10 p-6 text-white">
-                <h2 className='text-2xl font-bold'>YENREACH CITY</h2>
-                <p>Our flagship smart estate project redefining urban real estate in Bayelsa and Port Harcourt</p>
+              <div className="z-10 p-6 text-white text-center">
+                <h2 className='text-2xl font-bold mb-4'>YENREACH CITY</h2>
+                <p className="mb-4">Our flagship smart estate project redefining urban real estate in Bayelsa and Port Harcourt</p>
+              <RainbowButton className={'bg-primary text-primary-foreground px-6 py-[0.8rem] whitespace-nowrap'}>See more</RainbowButton>
               </div>
-            </div>
+            </a>
             {/* <div className="relative overflow-hidden rounded-3xl h-[320px] flex items-end justify-center">
               <Image className='absolute object-cover w-full h-full' src={Uni2} alt="" />
               <div className="z-10 p-6 text-white">
@@ -225,18 +228,18 @@ export default function Home() {
               </div>
             </div> */}
 
-            <div className="relative overflow-hidden rounded-3xl h-[320px] flex items-end justify-center">
+            {/* <div className="relative overflow-hidden rounded-3xl h-[320px] flex items-end justify-center">
               <Image className='absolute object-cover w-full h-full bg-white/15' src={BusitechImg} alt="" />
               <div className="z-10 p-6 text-white">
                 <h2 className='text-2xl font-bold'>BUSITECH MODEL COLLEGE</h2>
                 <p>A secondary school empowering teens through early business and technical education</p>
               </div>
-            </div>
+            </div> */}
           </div>
 
-          <Link href={'/contact'}>
+          {/* <Link href={'/contact'}>
             <RainbowButton className="mt-8">Reach Out</RainbowButton>
-          </Link>
+          </Link> */}
         </div>
       </section>
       
