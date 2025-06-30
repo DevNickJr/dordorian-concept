@@ -77,8 +77,10 @@ export default function Home() {
           </p>
         </div>
 
+        {/* consultancy */}
         <div className="mb-20">
-          <h2 className="text-3xl font-semibold text-gray-900 mb-4">📊 Consultancy - Professional Development & Certifications</h2>
+          <h2 className="text-3xl font-semibold text-gray-900 mb-4">📊 Consultancy – Professional Development & Certifications</h2>
+
           <p className="mb-4">
             We offer consulting services for both local and international professional institutes. Our goal is to bridge the gap between professional organizations and individuals who seek growth, development, and recognition in their careers.
           </p>
@@ -103,9 +105,34 @@ export default function Home() {
             </ul>
           </div>
 
-          <p>
-            Through these collaborations, we help individuals gain globally recognized certifications while supporting institutions in expanding their reach and impact.
-          </p>
+          {/* DIGITAL SYSTEMS SECTION UNDER CONSULTANCY */}
+          <div className="mt-12">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-4">🖥️ Digital Systems for Schools & SMEs</h3>
+            <p className="mb-4">
+              As part of our broader consultancy services, we empower schools and SMEs with tailored digital solutions to optimize operations, improve transparency, and enable sustainable growth.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
+              <div>
+                <h4 className="font-semibold">For Schools:</h4>
+                <ul className="list-disc ml-6 mt-2">
+                  <li>Automated billing portals</li>
+                  <li>Expense and income tracking</li>
+                  <li>Secure cloud-based record keeping</li>
+                  <li>Staff onboarding and digital training systems</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold">For SMEs:</h4>
+                <ul className="list-disc ml-6 mt-2">
+                  <li>Custom billing and invoicing platforms</li>
+                  <li>Inventory and cost control automation</li>
+                  <li>Real-time profit dashboards</li>
+                  <li>Collaborative cloud workspaces</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
 
 
