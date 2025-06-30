@@ -95,7 +95,7 @@ export default function Home() {
               </span>
               <h4 className="text-xl font-semibold">Consultancy</h4>
               <p className="mt-2 text-sm text-[#42526E] max-w-sm">
-                Through our educational institutions, we are shaping the future by providing students and young entrepreneurs with the skills to build businesses and create lasting legacies.
+                Our expert consultants provide strategic guidance and solutions tailored to help businesses grow and scale sustainably.
               </p>
             </div>
             <div className="flex flex-col gap-4 items-center md:items-start md:text-left shadow-md shadow-[#20248A0A] bg-white rounded-2xl p-8 text-center w-full max-w-[270px] md:bg-[#FAFAFC] md:max-w-none mx-auto">
@@ -104,7 +104,7 @@ export default function Home() {
               </span>
               <h4 className="text-xl font-semibold">Real Estate</h4>
               <p className="mt-2 text-sm text-[#42526E] max-w-sm">
-                Through our educational institutions, we are shaping the future by providing students and young entrepreneurs with the skills to build businesses and create lasting legacies.
+                We offer real estate solutions that connect people with the right properties — for living, investing, or development.
               </p>
             </div>
             <div className="flex flex-col gap-4 items-center md:items-start md:text-left shadow-md shadow-[#20248A0A] bg-white rounded-2xl p-8 text-center w-full max-w-[270px] md:bg-[#FAFAFC] md:max-w-none mx-auto">
@@ -202,7 +202,7 @@ export default function Home() {
               <a target="_blank" href="https://www.yenreach.com" className="relative flex items-end justify-center flex-1 overflow-hidden rounded-3xl">
                 <Image className='absolute object-cover w-full h-full' src={Yenreach} alt="" />
                 <div className="z-10 flex flex-col gap-3 p-6">
-                  <h2 className='text-2xl font-bold text-white'>YENREACH.com</h2>
+                  <h2 className='text-2xl font-bold text-white'>YENREACH.COM</h2>
                   <p className='text-white'>Innovative business and job listing platform supporting the growth and development of small and medium businesses across Nigeria</p>
                 </div>
                 <RainbowButton className={'bg-primary text-primary-foreground px-6 py-[0.8rem] bottom-2 right-2 whitespace-nowrap'}>See more</RainbowButton>

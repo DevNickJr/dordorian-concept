@@ -77,8 +77,40 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Digital Systems Section */}
         <div className="mb-20">
+          <h2 className="text-3xl font-semibold text-gray-900 mb-4">📊 Consultancy - Professional Development & Certifications</h2>
+          <p className="mb-4">
+            We offer consulting services for both local and international professional institutes. Our goal is to bridge the gap between professional organizations and individuals who seek growth, development, and recognition in their careers.
+          </p>
+
+          <p className="mb-4">
+            As part of our consulting services, we facilitate membership certifications and training programs for interested members of the public. These programs are designed to equip participants with industry-relevant knowledge, improve their professional standing, and open up new career opportunities.
+          </p>
+
+          <div className="bg-gray-50 border-l-4 border-primary p-6 rounded-md mb-6">
+            <h4 className="text-xl font-semibold mb-2">🎓 Partner Institutions</h4>
+            <p className="mb-2">
+              We collaborate with a wide range of reputable institutions to deliver value-driven professional development:
+            </p>
+            <ul className="list-disc ml-6">
+              <li>Chartered Institute of Strategic Management</li>
+              <li>Chartered Institute of Administration</li>
+              <li>Chartered Institute of Customer Relationship Management</li>
+              <li>Mapemond Business Academy (UK)</li>
+              <li>Chartered Institute of Human Resources Management of Nigeria</li>
+              <li>Institute of Chartered Economists of Nigeria</li>
+              <li>Management Specialist (UK)</li>
+            </ul>
+          </div>
+
+          <p>
+            Through these collaborations, we help individuals gain globally recognized certifications while supporting institutions in expanding their reach and impact.
+          </p>
+        </div>
+
+
+        {/* Digital Systems Section */}
+        {/* <div className="mb-20">
           <h2 className="text-3xl font-semibold text-gray-900 mb-4">💻 Digital Systems & Record Management</h2>
           <p className="mb-4">
             Empowering schools and SMEs with automated, cloud-based solutions:
@@ -121,7 +153,7 @@ export default function Home() {
               By choosing Dordorian Concept, clients gain access to smart systems that not only simplify their operations but also enable sustainable growth and improved decision-making.
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Education Section */}
         <div className="mb-20" id="busitech">
